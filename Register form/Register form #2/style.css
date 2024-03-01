@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.neumorphism-form {
+    background: #f0f0f0;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 10px 10px 20px #b8b8b8, -10px -10px 20px #ffffff;
+}
+.neumorphism-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.neumorphism-form .form-group {
+    margin-bottom: 20px;
+}
+.neumorphism-form .btn-primary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    transition: all 0.3s ease-in-out;
+}
+.neumorphism-form .btn-primary:hover {
+    background-color: #5a6268;
+    border-color: #5a6268;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+}

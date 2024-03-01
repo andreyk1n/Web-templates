@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+   
+<div class="container">
+    <div class="neumorphism-form col-md-6">
+        <h2>Реєстрація</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <input type="text" class="form-control" id="username" placeholder="Ім'я користувача">
+                <div class="error-message" id="usernameError"></div>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Електронна пошта">
+                <div class="error-message" id="emailError"></div>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="password" placeholder="Пароль">
+                <div class="error-message" id="passwordError"></div>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Підтвердити пароль">
+                <div class="error-message" id="confirmPasswordError"></div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Зареєструватися</button>
+        </form>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
