@@ -7,12 +7,12 @@ document.addEventListener('DOMContentLoaded', function () {
     headerIcon.addEventListener('click', function () {
         hiddenContent.classList.toggle('show');
         headerBars.forEach(bar => bar.classList.toggle('open'));
-        overlay.classList.toggle('show'); // Додати або видалити клас для оверлея
+        overlay.classList.toggle('show'); 
     });
 
     overlay.addEventListener('click', function () {
         hiddenContent.classList.remove('show');
         headerBars.forEach(bar => bar.classList.remove('open'));
-        overlay.classList.remove('show'); // Видалити клас для оверлея при кліку на нього
+        overlay.classList.remove('show'); 
     });
 });
