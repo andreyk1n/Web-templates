@@ -31,7 +31,7 @@ body {
 }
 
 .header-icon, .logo {
-    padding: 0px 20px;
+    margin: 0px 20px;
 }
 
 .header-top {
@@ -47,6 +47,11 @@ body {
     color: white;
 }
 
+.content {
+    margin-top: 100px;
+}
+
+
 .header-icon {
     cursor: pointer;
     width: 30px;
@@ -58,10 +63,6 @@ body {
     position: relative;
 }
 
-.content {
-    margin-top: 100px;
-}
-
 .header-bar {
     width: 30px;
     height: 2px;
@@ -70,7 +71,7 @@ body {
 }
 
 .open:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 12px);
+    transform: rotate(45deg) translate(10px, 10px);
 }
 
 .open:nth-child(2) {
@@ -78,9 +79,8 @@ body {
 }
 
 .open:nth-child(3) {
-    transform: rotate(-45deg) translate(8px, -15px);
+    transform: rotate(-45deg) translate(9px, -10px);
 }
-
 
 .header-hidden {
     width: 100%;
